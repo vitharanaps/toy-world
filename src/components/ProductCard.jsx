@@ -15,7 +15,7 @@ const ProductCard = () => {
       {/* text container */}
       <div className="w-full flex flex-col gap-3 py-2">
         <h4 className="text-sm font- tracking-wide">
-          Robot X400 Sed fdsfdsf dsfdsf dsf dsf dsf dsf dsf dsf sd{" "} fdfdsfdsfdsfdsfdsfdsfds fd fds fdsf dsf dsfds fds fds
+          Robot X400 Sed fdsfdsf dsfdsf 
         </h4>
         <div className="flex items-center justify-between ">
           <span className="text-primary text-xs">$ 25.00</span>

@@ -11,7 +11,7 @@ const FeaturedSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4 lg:gap-6 ">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4 lg:gap-8 ">
         <FeaturedCard />
         <FeaturedCard />
         <FeaturedCard />

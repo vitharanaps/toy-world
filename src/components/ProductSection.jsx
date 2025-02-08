@@ -11,7 +11,7 @@ const ProductSection = () => {
         </div>
       </div>
       {/* Category Container */}
-      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-7 xl:grid-cols-6 xl:gap-8">
+      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-7 xl:grid-cols-6 xl:gap-6">
         <ProductCard />
         <ProductCard />
         <ProductCard />
