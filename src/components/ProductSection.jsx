@@ -1,11 +1,11 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 
-const ProductSection = () => {
+const ProductSection = ({title}) => {
   return (
     <div className="flex flex-col gap-6 mx-8 my-16">
       <div className="flex items-center justify-between">
-        <h4 className="text-lg font-semibold pb-5">New Releases</h4>
+        <h4 className="text-lg font-semibold pb-5">{title}</h4>
         <div className=" px-3 py-2 border-2 border-primary flex items-center justify-center rounded-xl text-sm font-semibold">
           View All
         </div>

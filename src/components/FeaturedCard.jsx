@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa6";
 const FeaturedCard = () => {
   return (
 
-    <div className="w-full h-[100px] flex items-center  gap-3">
+    <div className="w-full h-[100px] flex items-center  gap-3 cursor-pointer">
       {/* Left Side */}
       <div className="w-1/3 h-[100px]">
         <Image
@@ -22,12 +22,12 @@ const FeaturedCard = () => {
         <h4 className="font-semibold text-sm">New Featured Items In our Application</h4>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-1">
-              <FaStar size={16} color="gold" />
-              <FaStar size={16} color="gold" />
-              <FaStar size={16} color="gold" />
-              <FaStar size={16} color="gold" />
-              <FaStar size={16} color="gold" />
+            <div className="flex items-center gap-[2px]">
+              <FaStar size={14} color="gold" />
+              <FaStar size={14} color="gold" />
+              <FaStar size={14} color="gold" />
+              <FaStar size={14} color="gold" />
+              <FaStar size={14} color="gold" />
             </div>
             <div className="flex items-center gap-1">
               <span className="text-sm">4.6</span>
